@@ -11,4 +11,5 @@ int main(){
         //blok ini akan disksekusi
         cout << "pengecualian akan diesekusi"<< endl;
     }
+    return 0;
 }
