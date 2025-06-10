@@ -24,4 +24,6 @@ int mian (){
         }
         // selesi dalam menulis sekarang tutup filenya
         outfile.close();
+        //membuat file dalam mode membaca
+        ifstream infile;
 }
