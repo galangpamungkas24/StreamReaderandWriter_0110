@@ -18,5 +18,8 @@ int main(){
     catch (exception& e){
         //penangkapan menggunakan obyek exception
         cout << e.what()<< endl;
+        /*penandaaan 2: bahwa perogram berjalan tetap tanpa berhenti
+        meskipun terjadi kesalahan*/
+        return 0;
     }
 }
