@@ -28,4 +28,7 @@ int main(){
         outfile.close();
         //membuat file dalam mode membaca
         ifstream infile;
+        //menunjuk ke sebuah file 
+        infile.open(NamaFile, ios::in);
+        cout << endl << ">= membuka dan membaca file " << endl;
 }
