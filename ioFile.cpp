@@ -42,4 +42,7 @@ int mian (){
             //tutup file tersebut setelah selesi
             infile.close();
         }
+        //jika tidal ditampilkan file maka akan menampilkan ini
+        else cout << "Unable to open file";
+        return 0;
 }
