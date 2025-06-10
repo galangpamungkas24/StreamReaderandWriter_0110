@@ -22,5 +22,6 @@ int mian (){
             //menulis dan memasukann inali dari 'baris' ke dalam file
             outfile << baris << endl;
         }
-        
+        // selesi dalam menulis sekarang tutup filenya
+        outfile.close();
 }
