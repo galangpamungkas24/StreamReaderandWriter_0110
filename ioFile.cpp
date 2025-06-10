@@ -19,6 +19,8 @@ int mian (){
             getline(cin, baris);
             //loop akan berhenti jika ada memasukan karakter q
             if (baris == "q" ) break;
+            //menulis dan memasukann inali dari 'baris' ke dalam file
+            outfile << baris << endl;
         }
         
 }
