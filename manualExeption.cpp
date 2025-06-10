@@ -7,4 +7,8 @@ int main(){
         throw 0.5; //meleparkan sebuah interger maka
         cout << "Pertanyaan tidal akan dieksekusi" << endl;
     }
+    catch (int a){
+        //blok ini akan disksekusi
+        cout << "pengecualian akan diesekusi"<< endl;
+    }
 }
