@@ -37,6 +37,9 @@ int mian (){
             {
                 //dan tampilkan di sini
                 cout << baris << '\n';
+
             }
+            //tutup file tersebut setelah selesi
+            infile.close();
         }
 }
