@@ -22,5 +22,8 @@ int main(){
         if (baris == "q")break;
         //menulis dan memasukan nilaI dari 'baris' ke dalam file
         outfile << baris << endl;
+        
     }
+    //selesai dalam menulis sekarang tutp filenya
+        outfile.close();
 }
